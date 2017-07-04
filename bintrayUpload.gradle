@@ -35,8 +35,8 @@ install {
     repositories.mavenInstaller {
         pom.project {
             name 'badger-helper'
-            description 'Android上显示角标的库'
-            url 'https://github.com/hpdx/ptr_pullrefresh'
+            description 'Android在桌面图标上显示角标'
+            url 'https://github.com/hpdx/badger-helper'
             inceptionYear '2017'
 
             packaging 'aar'
@@ -53,9 +53,9 @@ install {
             }
 
             scm {
-                connection 'https://github.com/hpdx/ptr_pullrefresh.git' // Git仓库地址。
-                developerConnection 'https://github.com/hpdx/ptr_pullrefresh.git' // Git仓库地址。
-                url 'https://github.com/hpdx/ptr_pullrefresh' // 项目主页。
+                connection 'https://github.com/hpdx/badger-helper.git' // Git仓库地址。
+                developerConnection 'https://github.com/hpdx/badger-helper.git' // Git仓库地址。
+                url 'https://github.com/hpdx/badger-helper' // 项目主页。
             }
 
             developers {
@@ -82,8 +82,8 @@ bintray {
         name = 'badger-helper'
         userOrg = user
         licenses = ['Apache-2.0']
-        websiteUrl = 'https://github.com/hpdx/ptr_pullrefresh'
-        vcsUrl = 'https://github.com/hpdx/ptr_pullrefresh.git'
+        websiteUrl = 'https://github.com/hpdx/badger-helper'
+        vcsUrl = 'https://github.com/hpdx/badger-helper.git'
         publish = true
         publicDownloadNumbers = true
     }
